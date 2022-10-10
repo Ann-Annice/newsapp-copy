@@ -4,11 +4,20 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NewsappcopyComponent } from './newsappcopy/newsappcopy.component';
+import { NavbarComponent } from './navbar/navbar.component';
+import { RouterModule, Routes } from '@angular/router';
+const appRoutes:Routes=[
+  {
+    path:"",component:
+  },
+  
+]
 
 @NgModule({
   declarations: [
     AppComponent,
-    NewsappcopyComponent
+    NewsappcopyComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
